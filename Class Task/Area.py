@@ -17,3 +17,4 @@ area = Area(10,20)
 print(area.square())
 print(area.triangle())
 print(area.circle())
+

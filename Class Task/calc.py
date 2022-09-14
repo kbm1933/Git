@@ -39,7 +39,7 @@ class Calc():
 
 calc = Calc()
 
-calc.set_number('20','10')
+calc.set_number(20,10)
 
 print(calc.plus())
 print(calc.minus())
