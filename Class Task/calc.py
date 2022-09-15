@@ -35,11 +35,16 @@ class Calc():
             print('0으로 나눌 수 없습니다.')
         except:
             print('숫자만 입력 가능합니다. div')    
-        
+while True:
+    try:
+        num1,num2 = map(int,input().split(" "))
+        break
+    except ValueError:
+        print('숫자만 입력해 주세요')
+
 
 calc = Calc()
-
-calc.set_number(20,10)
+calc.set_number(num1,num2)
 
 print(calc.plus())
 print(calc.minus())
