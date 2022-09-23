@@ -68,6 +68,7 @@ users = [
 # {"name": "Ronald", "age": 30, "math_score": 93, "science_score": 65, "english_score": 93, "social_score": 92}, lambda x에 하나씩 들어간다.
 users.sort(key=lambda x: sum([x["math_score"], x["science_score"],x["english_score"],x["social_score"]]),reverse=True)
 
+#sort_dict는 a,b,c순서대로 정렬을 해버려서 False로 정렬 못하게함
 pprint(users, width=300, sort_dicts=False)
 """
 [{'name': 'Ronald', 'age': 30, 'math_score': 93, 'science_score': 65, 'english_score': 93, 'social_score': 92},
